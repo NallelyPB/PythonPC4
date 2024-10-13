@@ -37,7 +37,7 @@ def escribir_resumen(nombre_archivo, temperatura_maxima, temperatura_minima, tem
         print(f"Ocurrió un error al escribir el archivo: {e}")
 
 # Nombre del archivo de entrada y salida
-archivo_entrada = "temperaturas.txt"  # Aquí deberías descargar el archivo y colocarlo en el mismo directorio
+archivo_entrada = "temperaturas.txt"  # Aquí se descarga el archivo y se deberia colocar en el mismo directorio
 archivo_salida = "resumen_temperaturas.txt"
 
 # Leer el archivo de temperaturas
