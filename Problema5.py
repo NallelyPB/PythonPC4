@@ -1,6 +1,5 @@
 import os
 
-# Clase para manejar las tablas de multiplicar
 class TablaMultiplicar:
     # Método para generar y guardar la tabla en un archivo
     def generar_tabla(self, n):
