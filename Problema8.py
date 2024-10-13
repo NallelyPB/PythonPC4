@@ -6,7 +6,7 @@ from collections import defaultdict
 conexion = sqlite3.connect('tipo_cambio.db')
 cursor = conexion.cursor()
 
-# Crear la tabla tipo_cambio si no existe (opcional)
+# Crear la tabla tipo_cambio si no existe 
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS tipo_cambio (
     fecha TEXT PRIMARY KEY,
