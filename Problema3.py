@@ -26,7 +26,7 @@ def crear_zip(nombre_archivo, nombre_zip):
     except Exception as e:
         print(f"Error al crear el archivo zip: {e}")
 
-# Función para descomprimir el archivo zip
+# Función para descomprimir archivo zip
 def descomprimir_zip(nombre_zip, destino):
     try:
         with zipfile.ZipFile(nombre_zip, 'r') as archivo_zip:
