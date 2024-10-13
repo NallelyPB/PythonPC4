@@ -48,7 +48,6 @@ def mostrar_sqlite(conn):
     for fila in filas:
         print(f"Fecha: {fila[0]}, Compra: {fila[1]}, Venta: {fila[2]}")
 
-# Proceso principal
 def main():
     conn_sqlite = configurar_sqlite()
     coleccion_mongodb = configurar_mongodb()
