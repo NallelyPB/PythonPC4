@@ -32,6 +32,5 @@ def main():
     ruta_archivo = input("Ingrese la ruta del archivo .py: ")
     contar_lineas_codigo(ruta_archivo)
 
-# Ejecutar el programa
 if __name__ == "__main__":
     main()
