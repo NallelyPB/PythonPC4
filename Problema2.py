@@ -11,7 +11,7 @@ def main():
     # Solicitar al usuario una fuente
     fuente_usuario = input("Ingrese el nombre de una fuente (deje en blanco para elegir una aleatoria): ")
 
-    # Si no se ingresa ninguna fuente, seleccionar una aleatoria
+    # Si no se ingresa ninguna fuente puede seleccionar una aleatoria
     if fuente_usuario == "":
         fuente_seleccionada = random.choice(fuentes_disponibles)
         print(f"Fuente seleccionada aleatoriamente: {fuente_seleccionada}")
